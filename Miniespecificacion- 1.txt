@@ -1,0 +1,22 @@
+ Generar un algoritmo que permite calcular y presentar el área de un triángulo. Los datos deben ser pedidos al usuario.
+algoritmo 
+1.inicio 
+2.se pide los datos
+3.se calcula el area del triangulo 
+4.se muestra el area del triangulo 
+5.fin 
+-------miniespecificacion o pseudocodigo-------
+1.inicio 
+// declarar variables 
+2. altura, d[0,n]
+3. base, d[0,n]
+4. area, d[0,n]
+//pido datos por teclado - entrada 
+5. escribir "ingrese la altura"
+6. leer altura
+7. escribir "ingrese base"
+8. leer base 
+//proceso 
+9.area <-- (base * altura)/2
+10.Escribir"el area del triangulo" + area
+11.fin
