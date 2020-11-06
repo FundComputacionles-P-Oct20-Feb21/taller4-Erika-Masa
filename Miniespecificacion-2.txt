@@ -1,0 +1,25 @@
+ Generar un algoritmo que permite ingresar los gastos de tres hijos de un padre de familia; calcular y  mostrar el total de gastos de los hijos del padre de familia.
+1. inicio
+2.ingrese gastos de los tres hijos
+3.calcule con una suma los tres gastos
+4.presente en pantalla los gastos 
+5.fin
+-------Miniespecificacion o Pseudocódigo------
+1.inicio
+//declaro variables
+2.gasto1, d[0, n]
+3.gasto2, d[0, n]
+4.gasto3, d[0, n]
+5.gasto total, d[0, n]
+// pido datos por teclado 
+6.escribir"ingrese el gasto1"
+7.leer gasto1
+8.escribir"ingrese el gasto2"
+9leer gasto2
+10.escribir"ingrese gasto3"
+11.leer gasto3
+//proceso
+12.gasto total <-- gasto1 + gasto2 + gasto3
+//salida
+13.escribir"el gasto total"
+14.fin
