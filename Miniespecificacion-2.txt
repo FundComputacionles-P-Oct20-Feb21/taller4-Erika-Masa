@@ -21,5 +21,5 @@
 //proceso
 12.gasto total <-- gasto1 + gasto2 + gasto3
 //salida
-13.escribir"el gasto total"
+13.escribir"el gasto total es:" + gasto total
 14.fin

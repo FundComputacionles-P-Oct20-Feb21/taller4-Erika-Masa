@@ -1,28 +1,28 @@
- Generar un algoritmo que permita calcular y mostrar el costos de una computadora de escritorio. La misma es comprada por partes; CPU, teclado, pantalla, ratón.
+Generar un solución que permita calcular y mostrar el pago mensual de un préstamo de 1 año de plazo. Se debe ingresar el monto del préstamo y el interés mensual a cobrar. 
+1.Inicio
+2.se ingresa el monton del prestamo
+3.se ingresa el interes
+4.se ingresa el plazo de pago 
+5.se ingresa el pago mensual
+6.se calcula el pago mensual dividiendo el monton por el plazo de pago sumando el interes
+7.se muestra el pago mensual 
+8.fin
+------Miniespecificacion o Pseudocódigo------
 1.inicio
-2.se pide ingresar costos 
-3.se calcula el costo total sumando las partes
-4.se muestra el costo
-5.fin
----- Miniespecificacion o Pseudocódigo ----
-1.inicio
-//declaro variables 
-2.costo del cpu ,d[0, n]
-3.costo del teclado, d[0, n]
-4.costo de pantalla, d[0, n]
-5.costo del raton, d[0, n]
-6.costo de la computadora, d[0, n]
-//pido datos por teclado - entradas
-7.escribir "costo del cpu"
-8.leer costo del cpu
-9.escribir "costo del teclado"
-10.leer costo del teclado
-11.escribir "costo de la pantalla"
-12.leer costo de la pantalla
-13.escribir "costo del raton"
-14.leer costo del raton
-//proceso
-15.costo de la computadora <-- costo del cpu + costo del teclado + costo de la pantalla + costo del raton
+//declaro las variables
+2.monton, d[0, n]
+3.interes, d[0, n]
+4.plazo, d[0, n]
+5.pago, d[0, n]
+//pido datos por teclado - entrada 
+6.escribir"ingrese el montos del prestamo"
+7.leer monton
+8.escribir"ingrese el interes"
+9.leer interes
+10.escribir"ingrese el plazo de pago"
+11.leer plazo de pago 
+//proceso 
+12.pago mensual  <-- (monton/plazo)+interes
 //salida
-16.escribir "costo de la computadora"
-17.fin
+13.escribir"el pago mensual del prestamos"
+14.fin

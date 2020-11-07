@@ -1,30 +1,23 @@
-Se desea desarrollar un algoritmo que permita mostrar la tabla de multiplicar de un número ingresado por el usuario; solo en el caso que el valor del número esté entre 2 y 6.
+Generar un algoritmo que permita calcular y mostrar el valor de la planilla de teléfono de un casa. Se debe ingresar el costo por minutos, el número de minutos consumidos en el mes.
 1.inicio
-2.numero de ususario ingresado 
-3.presentar tabla si esta enntre  el numero 2 y 6
-4.numero ingresado incorrecto 
-5fin
------ Miniespecificacion o Pseudocódigo ----
+2.se pide el costo por minuto
+3.se pide el numero de minutos consumidos en el mes 
+4.se calcula el valor de la planilla 
+5.se muestra el valor en pantalla
+6.fin
+----- Miniespecificacion o Pseudocódigo -----
 1.inicio
-//declarar variables 
-2.NI, int[0, n]
-3.TM, int[0, n]
-// pido datos por teclado - entradas
-4.escribe"numero ingresado por el usuario"
-5.leer NI
-6. mostrar tabla del  numero ingresa entre 2y 6
-     caso contrario
-7. numero ingresado incorrecto 
-// salida
-EScRIBIR"
-
-
-
-
-
-
-
-proceso
-tm---- ni
- caso contrario 
-tm----nii
+//declaro variables 
+2.costo_por_minuto,  d[0, n]
+3.los_minutos_consumidos_al_mes, d[0, n]
+4.valor_de_la_planilla,  d[0, n]
+//pido datos de entrada - teclado
+5.escribe"costo por minutos"
+6. leer costo
+7.ercibir"minutos consumidos al mes
+8.leer consumidos 
+//proseso
+9.valor de la planilla <-- costo * consumidos 
+//salida
+10.escibir"el valor de la planilla es" + valor
+11.fin
